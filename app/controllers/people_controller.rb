@@ -8,7 +8,7 @@ class PeopleController < ApplicationController
     if @person.save
       render :show
     else
-
+      render json: @person.errors.full_messages
     end
   end
 

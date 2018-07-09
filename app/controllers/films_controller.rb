@@ -8,7 +8,7 @@ class FilmsController < ApplicationController
     if @film.save
       render :show
     else
-
+      render json: @film.errors.full_messages
     end
   end
 
