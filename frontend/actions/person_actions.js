@@ -4,7 +4,7 @@ export const RECEIVE_ALL_PEOPLE = "RECEIVE_ALL_PEOPLE";
 export const RECEIVE_PERSON = "RECEIVE_PERSON";
 
 export const fetchPeople = () => dispatch => (
-  PersonApiUtil.fetchPerson().then(people => dispatch(receiveAllPeople(people)))
+  PersonApiUtil.fetchPeople().then(people => dispatch(receiveAllPeople(people)))
 );
 
 export const fetchPerson = id => dispatch => (
