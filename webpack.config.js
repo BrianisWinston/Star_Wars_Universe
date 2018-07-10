@@ -1,6 +1,7 @@
 var path = require("path");
 
 module.exports = {
+  mode: 'development',
   context: __dirname,
   entry: "./frontend/star_wars_universe.jsx",
   output: {
@@ -22,5 +23,6 @@ module.exports = {
   devtool: 'source-map',
   resolve: {
     extensions: [".js", ".jsx", "*"]
-  }
+  },
+  watch: true
 };
