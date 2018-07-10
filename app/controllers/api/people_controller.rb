@@ -1,4 +1,4 @@
-class PeopleController < ApplicationController
+class Api::PeopleController < ApplicationController
   def new
     @person = Person.new
   end

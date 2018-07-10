@@ -1,4 +1,4 @@
-class FilmsController < ApplicationController
+class Api::FilmsController < ApplicationController
   def new
     @film = Film.new
   end
