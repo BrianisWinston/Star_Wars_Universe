@@ -5,7 +5,7 @@ class AllFilms extends React.Component {
   render () {
     return (
       <div>
-        <h1>Star Wars Universe</h1>
+        <h1>Star Wars Universe API</h1>
       </div>
     )
   }
